@@ -1,0 +1,142 @@
+:root{
+    font-size: 18px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Kumbh Sans, sans-serif;
+    color: hsl(0,11% 12%);
+
+}
+
+section{
+    background: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+.card{
+    width: 350px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+
+}    
+.card-header{
+
+    background-image: url(images/bg-pattern-card.svg);
+    background-size: cover;
+    height: 150px;
+
+}
+
+.card-body{
+    padding: 0 20px 20px;
+}
+
+
+.img-holder{
+    width: 95px;
+    height: 95px;
+    border-radius: 50% ;
+    border: 5px solid white;
+    overflow: hidden;
+    margin: -50px auto 20px auto;
+}
+
+.img-holder img{
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+
+.name-age{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: hsl(229, 23%, 23%);
+}
+
+.age,.city,.meta{
+    font-weight: 400;
+    color: hsl(0, 11%, 12%);
+    opacity: .6;
+
+}
+
+.age{
+    font-weight: 400;
+    margin-left: 6px;
+
+}
+
+
+.city{
+    font-size: 0.9rem;
+}
+.card-footer{
+    border-top: 1px solid hsl(0, 0%, 76%);
+    display: flex;
+    padding: 0 30px; 
+    
+}
+
+.card-footer .item{
+    flex: 1;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(229, 23%, 23%);
+
+    
+}
+
+.card-footer .item .value{
+    font-size: 1rem;
+    margin-bottom: 6px;
+
+}
+
+
+.card-footer .item .meta{
+    font-size: .7rem;
+    letter-spacing: 1px;
+
+}
+
+.circles .c1,
+.circles .c2{
+    position: absolute;
+    width: 800px;
+    height: auto;
+}
+
+
+.circles .c1{
+    top: -299px;
+    left: -175px;
+}
+
+
+.circles .c2{
+    bottom: -299px;
+    right: -175px;
+}
+
+
